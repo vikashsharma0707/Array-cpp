@@ -7,7 +7,7 @@ int main(){
 	cin>>n;
 	
 	int arr[n];
-    int min =arr[0];
+   
     
     
     for(int i=0;i<n;i++){
@@ -19,10 +19,12 @@ int main(){
 	}
 	cout<<endl;
 	
-	 for(int i=1;i<n;i++){
+	 int min =arr[0];
+	 for(int i=1;i<=n;i++){
     	if(arr[i]<min){
     		min=arr[i];
 		}
 	}
+	
 	cout<<"minimum number is :"<<min;
 }

@@ -28,6 +28,6 @@ int main(){
 		}
 	}
 	
-	cout<<"sum of even sum is :"<<even;
+	cout<<"sum of even sum is :"<<even<<endl;
 	cout<<"sum of even odd is :"<<odd;
 }
